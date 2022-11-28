@@ -2,5 +2,5 @@
 
 The fourth Homework for the ADM course.
 
-Members : Gizem Goker, Lucia , Nasim Sadeghi Khanshir
+Members : Gizem Goker, Lucia Dicunta, Nasim Sadeghi Khanshir
 
