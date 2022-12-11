@@ -8,7 +8,7 @@ Members : Gizem Goker, Lucia Dicunta, Nasim Sadeghi Khanshir
 
 ### main.ipynb
 In this file we implemented the solutions to the exercises of the HW-4.
-### AlgorithmQuestion.ipynb
-There are the solutions to the Algorithm questions of the HW-4.
+### AlgorithmicQuestion.ipynb
+There is the solutions to the Algorithmic questions of the HW-4.
 ### Commandline.sh
 Bash script.
