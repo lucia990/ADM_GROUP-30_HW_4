@@ -12,3 +12,5 @@ In this file we implemented the solutions to the exercises of the HW-4.
 There is the solution to the Algorithmic questions of the HW-4.
 ### Commandline.sh
 Bash script.
+### Second_Question.ipynb
+It contains the solution of the second Question of HW-4 (Grouping customers together)
