@@ -28,9 +28,13 @@ echo "Question-3-Report the customer with the highest average transaction amount
 echo "The customer with highest average transaction amount in the dataset is "
 
 
-awk '{total[$2]+=$9} END {for (key in total) {print key, total[key]/NR}}'  | sort -k2 -n -r| head -n 2 bank_transactions.csv
+awk -F, '{total[$2]+=$9; count[$2]+=1} END{for (x in total) print x, total[x]/count[x]}' bank_transactions.csv | sort -k 2 -n | tail -n 1
 
+#total is for total amount for the related customerID,in column 2 and total amount in column 9
+#count is for the number of lines for related customerID in column 2
 # sort numerically, -n   
 #sort reverse order -r
 #sort according to specified column, second column -k2
+
 #NR: total Number of rows 
+#awk '{total[$2]+=$9} END {for (x in total) {print x, total[x]/NR}}'  | sort -k 2 -n -r| head -n 2 bank_transactions.csv
